@@ -1,0 +1,42 @@
+body{
+    background-color: #555;
+}
+.container{
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    margin-top: 30px;
+    height: 450px;
+    width: 600px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+
+}
+.box{
+    height: 150px;
+    width: 150px;
+}
+img{
+    box-sizing: border-box;
+    height: 100%;
+    width: 100%;
+    cursor: pointer;
+}
+
+.border_img{
+    border: 2px solid red;
+}
+button{
+    padding: 10px 20px;
+    border: none;
+    margin-left: auto;
+    margin-right: auto;
+    outline: none;
+    font-family: sans-serif;
+    color: #fff;
+    background-color: #111;
+    display: block;
+    width: 150px;
+    height: 40px;
+    cursor: pointer;
+}
